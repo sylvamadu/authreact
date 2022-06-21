@@ -1,0 +1,76 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: var(--opposite-text);
+}
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.apps i {
+  color: var(--text-color);
+  font-size: 24px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.logo-name {
+  font-size: 30px;
+  border: 3px solid var(--text-color);
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 2px;
+  font-weight: 700;
+  color: #cc2328;
+  line-height: 32px;
+}
+.hamburger {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: none;
+}
+.hamburger i {
+  font-size: 1.5rem;
+  color: var(--text-color);
+}
+.search input {
+  height: 45px;
+  width: 300px;
+  border-radius: 50px;
+  border: 1px solid var(--text-color);
+  outline: none;
+  padding: 10px;
+  padding-left: 20px;
+}
+.mode button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.mode button i {
+  font-size: 23px;
+  color: var(--text-color);
+}
+
+@media screen and (max-width: 768px) {
+  .search{
+    display: none;
+  }
+  .logo-name{
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .hamburger {
+    display: block !important;
+  }
+}

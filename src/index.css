@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800&display=swap');
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+:root {
+  --background: white;
+  --text-color: black;
+  --navlink-color: #606060;
+  --nav-background: white;
+  --grey-text: #606060;
+  --opposite-text: white;
+  --blue-background: #F0F6FF;
+  --border-color: #C2D0DA;
+}
+[data-theme="dark"] {
+  --background: #131619;
+  --text-color: white;
+  --navlink-color: white;
+  --nav-background: #131619;
+  --grey-text: #C2D0DA;
+  --opposite-text: black;
+  --blue-background: #0F1113;
+  --border-color: #606060;
+}

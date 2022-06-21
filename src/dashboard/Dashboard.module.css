@@ -1,0 +1,28 @@
+.dashboard {
+  display: flex;
+  align-items: flex-start;
+}
+.sidebar {
+  flex: 0.22;
+  height: 100vh;
+  background-color: pink;
+  color: var(--text-color);
+}
+.content {
+  flex: 0.78;
+  height: 100vh;
+  color: var(--text-color);
+}
+.main{
+  background-color: red;
+}
+
+/* media query checkpoint for dashboard sidebar */
+@media screen and (max-width: 1279px) {
+  .sidebar{
+    display: none;
+  }
+  .content{
+    flex: 1;
+  }
+}

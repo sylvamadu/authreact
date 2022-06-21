@@ -1,0 +1,39 @@
+.sidebar-header {
+  height: 165px;
+  width: 100%;
+  border-bottom: 1px solid #eeeeee;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 16px;
+}
+.sidebar {
+  padding-top: 30px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.user-avatar img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+.user-info {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.user-info .mail {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.caret {
+  border: none;
+  background: none;
+}
+.caret:hover {
+  background: none;
+}
+.caret:active {
+  background: none !important;
+}
